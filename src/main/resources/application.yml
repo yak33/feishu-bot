@@ -1,0 +1,17 @@
+# 指定端口9999
+server:
+  port: 8888
+spring:
+  application:
+   name:
+    feishu-bot
+  security:
+    user:
+      name: admin
+      password: cnmngdxB9!~!
+#日志配置
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
